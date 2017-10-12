@@ -6,7 +6,7 @@ public class Main {
         A a = new A();
 
         for (int i = 0; i < 10; i++) {
-            System.out.println(i);
+            System.out.println(A.add(a.getX(), i));
         }
     }
 }
